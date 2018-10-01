@@ -12,6 +12,7 @@
 		3D7EC61721629A2900F49034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61521629A2900F49034 /* Main.storyboard */; };
 		3D7EC61921629A3000F49034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61821629A3000F49034 /* Assets.xcassets */; };
 		3D7EC61C21629A3000F49034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61A21629A3000F49034 /* LaunchScreen.storyboard */; };
+		3D7EC6242162A0FD00F49034 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EC6232162A0FD00F49034 /* LoginViewController.swift */; };
 		E65F3B00A5F3758CB5985E7C /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F749142785B26F0FEFC2B70B /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		3D7EC61821629A3000F49034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7EC61B21629A3000F49034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7EC61D21629A3000F49034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7EC6232162A0FD00F49034 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C25BB6DDB3A27825BB30EC6 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		DA1FB1765FAE738A854BA3F3 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		F749142785B26F0FEFC2B70B /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 				3D7EC61821629A3000F49034 /* Assets.xcassets */,
 				3D7EC61A21629A3000F49034 /* LaunchScreen.storyboard */,
 				3D7EC61D21629A3000F49034 /* Info.plist */,
+				3D7EC6232162A0FD00F49034 /* LoginViewController.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -162,16 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
@@ -186,15 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Instagram-checkManifestLockResult.txt",
 			);
@@ -210,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7EC6242162A0FD00F49034 /* LoginViewController.swift in Sources */,
 				3D7EC61421629A2900F49034 /* ViewController.swift in Sources */,
 				3D7EC61221629A2900F49034 /* AppDelegate.swift in Sources */,
 			);
