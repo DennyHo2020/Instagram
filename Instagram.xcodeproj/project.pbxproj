@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D217BE02169D3FE004C30E2 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BDF2169D3FE004C30E2 /* PhotoMapViewController.swift */; };
-		3D217BE22169D866004C30E2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BE12169D866004C30E2 /* Post.swift */; };
 		3D217BE62169DA1E004C30E2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BE52169DA1E004C30E2 /* PostCell.swift */; };
+		3D217BE82169EB09004C30E2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BE72169EB09004C30E2 /* Post.swift */; };
 		3D7EC61221629A2900F49034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EC61121629A2900F49034 /* AppDelegate.swift */; };
 		3D7EC61721629A2900F49034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61521629A2900F49034 /* Main.storyboard */; };
 		3D7EC61921629A3000F49034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61821629A3000F49034 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 
 /* Begin PBXFileReference section */
 		3D217BDF2169D3FE004C30E2 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
-		3D217BE12169D866004C30E2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		3D217BE52169DA1E004C30E2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3D217BE72169EB09004C30E2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		3D7EC60E21629A2900F49034 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7EC61121629A2900F49034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D7EC61621629A2900F49034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 				3D7EC6252162C60E00F49034 /* HomeViewController.swift */,
 				3D217BE52169DA1E004C30E2 /* PostCell.swift */,
 				3D217BDF2169D3FE004C30E2 /* PhotoMapViewController.swift */,
-				3D217BE12169D866004C30E2 /* Post.swift */,
+				3D217BE72169EB09004C30E2 /* Post.swift */,
 				3D7EC61821629A3000F49034 /* Assets.xcassets */,
 				3D7EC61A21629A3000F49034 /* LaunchScreen.storyboard */,
 				3D7EC61D21629A3000F49034 /* Info.plist */,
@@ -219,8 +219,8 @@
 				3D7EC6242162A0FD00F49034 /* LoginViewController.swift in Sources */,
 				3D7EC61221629A2900F49034 /* AppDelegate.swift in Sources */,
 				3D217BE02169D3FE004C30E2 /* PhotoMapViewController.swift in Sources */,
+				3D217BE82169EB09004C30E2 /* Post.swift in Sources */,
 				3D7EC6262162C60E00F49034 /* HomeViewController.swift in Sources */,
-				3D217BE22169D866004C30E2 /* Post.swift in Sources */,
 				3D217BE62169DA1E004C30E2 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Parse
 
 class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
@@ -35,13 +34,13 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+
     
     @IBAction func onPost(_ sender: Any) {
         Post.postUserImage(image: self.postImage, withCaption: captionTextField.text) { (success: Bool , error:Error?) in
         }
         dismiss(animated:true, completion: nil)
     }
-    
     
     @IBAction func onCancel(_ sender: Any) {
         dismiss(animated: true, completion: nil)

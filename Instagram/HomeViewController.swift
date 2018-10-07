@@ -60,7 +60,7 @@ class HomeViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         let query = PFQuery(className: "Post")
         query.order(byDescending: "createdAt")
         query.includeKey("author")
-        query.includeKey("createdAt")
+        //query.includeKey("createdAt")
         query.limit = 20
         
         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in

@@ -14,11 +14,10 @@ import ParseUI
 class PostCell: UITableViewCell {
     
     @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var photoImageView: PFImageView!
     @IBOutlet weak var bottomUserLabel: UILabel!
     @IBOutlet weak var captionLabel: UILabel!
-    @IBOutlet weak var photoImageView: PFImageView!
     @IBOutlet weak var dateLabel: UILabel!
-    
     
     var instagramPost: Post! {
         didSet {
