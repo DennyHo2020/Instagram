@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D217BE02169D3FE004C30E2 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BDF2169D3FE004C30E2 /* PhotoMapViewController.swift */; };
+		3D217BE22169D866004C30E2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BE12169D866004C30E2 /* Post.swift */; };
+		3D217BE62169DA1E004C30E2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D217BE52169DA1E004C30E2 /* PostCell.swift */; };
 		3D7EC61221629A2900F49034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EC61121629A2900F49034 /* AppDelegate.swift */; };
-		3D7EC61421629A2900F49034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EC61321629A2900F49034 /* ViewController.swift */; };
 		3D7EC61721629A2900F49034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61521629A2900F49034 /* Main.storyboard */; };
 		3D7EC61921629A3000F49034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61821629A3000F49034 /* Assets.xcassets */; };
 		3D7EC61C21629A3000F49034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EC61A21629A3000F49034 /* LaunchScreen.storyboard */; };
 		3D7EC6242162A0FD00F49034 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EC6232162A0FD00F49034 /* LoginViewController.swift */; };
+		3D7EC6262162C60E00F49034 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EC6252162C60E00F49034 /* HomeViewController.swift */; };
 		E65F3B00A5F3758CB5985E7C /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F749142785B26F0FEFC2B70B /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D217BDF2169D3FE004C30E2 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
+		3D217BE12169D866004C30E2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3D217BE52169DA1E004C30E2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		3D7EC60E21629A2900F49034 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7EC61121629A2900F49034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D7EC61321629A2900F49034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D7EC61621629A2900F49034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D7EC61821629A3000F49034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7EC61B21629A3000F49034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7EC61D21629A3000F49034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D7EC6232162A0FD00F49034 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D7EC6252162C60E00F49034 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7C25BB6DDB3A27825BB30EC6 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		DA1FB1765FAE738A854BA3F3 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		F749142785B26F0FEFC2B70B /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,13 +77,16 @@
 		3D7EC61021629A2900F49034 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				3D7EC61121629A2900F49034 /* AppDelegate.swift */,
-				3D7EC61321629A2900F49034 /* ViewController.swift */,
 				3D7EC61521629A2900F49034 /* Main.storyboard */,
+				3D7EC61121629A2900F49034 /* AppDelegate.swift */,
+				3D7EC6232162A0FD00F49034 /* LoginViewController.swift */,
+				3D7EC6252162C60E00F49034 /* HomeViewController.swift */,
+				3D217BE52169DA1E004C30E2 /* PostCell.swift */,
+				3D217BDF2169D3FE004C30E2 /* PhotoMapViewController.swift */,
+				3D217BE12169D866004C30E2 /* Post.swift */,
 				3D7EC61821629A3000F49034 /* Assets.xcassets */,
 				3D7EC61A21629A3000F49034 /* LaunchScreen.storyboard */,
 				3D7EC61D21629A3000F49034 /* Info.plist */,
-				3D7EC6232162A0FD00F49034 /* LoginViewController.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -169,11 +178,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -206,8 +217,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D7EC6242162A0FD00F49034 /* LoginViewController.swift in Sources */,
-				3D7EC61421629A2900F49034 /* ViewController.swift in Sources */,
 				3D7EC61221629A2900F49034 /* AppDelegate.swift in Sources */,
+				3D217BE02169D3FE004C30E2 /* PhotoMapViewController.swift in Sources */,
+				3D7EC6262162C60E00F49034 /* HomeViewController.swift in Sources */,
+				3D217BE22169D866004C30E2 /* Post.swift in Sources */,
+				3D217BE62169DA1E004C30E2 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
