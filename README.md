@@ -2,11 +2,7 @@
 
 Instagram is a photo sharing app using Parse as its backend.
 
-Time spent: 12 hours spent in total
-
-## User Stories
-
-The following **required** functionality is completed:
+## Features
 
 - [X] User can sign up to create a new account using Parse authentication (+1pt)
 - [X] User can log in and log out of his or her account (+1pt)
