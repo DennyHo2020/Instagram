@@ -4,13 +4,13 @@ Instagram is a photo sharing app using Parse as its backend.
 
 ## Features
 
-- [X] User can sign up to create a new account using Parse authentication (+1pt)
-- [X] User can log in and log out of his or her account (+1pt)
-- [X] The current signed in user is persisted across app restarts (+1pt)
-- [X] User can take a photo, add a caption, and post it to "Instagram" (+2pt)
-- [X] User can view the last 20 posts submitted to "Instagram" (+2pt)
-- [X] User can pull to refresh the last 20 posts submitted to "Instagram" (+1pt)
-- [X] User can tap a post to view post details, including timestamp and caption (+2pt)
+- Sign up to create a new account using Parse authentication 
+- Log in and log out of his or her account 
+- Current signed in user is persisted across app restarts 
+- Take a photo, add a caption, and post it to "Instagram" 
+- View the last 20 posts submitted to "Instagram" 
+- Pull to refresh the last 20 posts submitted to "Instagram" 
+- Tap a post to view post details, including timestamp and caption 
 
 ## Video Walkthrough
 
