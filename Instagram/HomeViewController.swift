@@ -17,12 +17,14 @@ class HomeViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     @IBAction func onPhotos(_ sender: Any) {
     }
     
+    //Logout User
     @IBAction func onLogOut(_ sender: Any) {
         PFUser.logOutInBackground { (error: Error?) in
             NotificationCenter.default.post(name: NSNotification.Name("didLogout"), object: nil)
         }
     }
     
+    //Load TableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,6 +58,7 @@ class HomeViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return cell
     }
     
+    //Network Request
     func onTimer(){
         let query = PFQuery(className: "Post")
         query.order(byDescending: "createdAt")
@@ -73,6 +76,7 @@ class HomeViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         }
     }
     
+    //Refresh
     @objc func refreshControlAction(_ refreshControl: UIRefreshControl) {
         onTimer()
         refreshControl.endRefreshing()

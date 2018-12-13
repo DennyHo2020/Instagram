@@ -10,12 +10,11 @@ import UIKit
 import Parse
 import ParseUI
 
-
+//Cell of TableView in HomeView
 class PostCell: UITableViewCell {
     
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var photoImageView: PFImageView!
-    @IBOutlet weak var bottomUserLabel: UILabel!
     @IBOutlet weak var captionLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
@@ -26,19 +25,15 @@ class PostCell: UITableViewCell {
             self.captionLabel.text = instagramPost.caption
             self.dateLabel.text = instagramPost.createdAt?.description
             self.usernameLabel.text = instagramPost.author.username
-            self.bottomUserLabel.text = instagramPost.author.username
         }
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
